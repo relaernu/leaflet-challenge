@@ -23,7 +23,7 @@ function createLegend() {
 
         magnitude.forEach((mag, index) =>
             {
-                div.innerHTML += `<li><span style="background-color: ${colors[index]}"><span>${labels[index]}</li>`;
+                div.innerHTML += `<li><span style="background-color: ${colors[index]}"></span>${labels[index]}</li>`;
             });
 
         // // Add min & max

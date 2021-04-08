@@ -10,11 +10,37 @@ html {
 }
 
 #leg li {
+  /* display: block; */
   list-style-type:none;
+  display:block; 
+  clear:left; 
+  font-size: 12px;
+  line-height: 12px; 
+  text-align: left;
+  vertical-align: middle;
 }
 
 #leg li span {
-  display: inline-block;
-  width: 5px;
-  height: 5px;
+  display:inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.legend {
+  padding: 10px;
+  padding-left: 10px;
+  font-family: Sanchez, serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#leg {
+  padding: 5px;
+  margin: 0px;
 }
